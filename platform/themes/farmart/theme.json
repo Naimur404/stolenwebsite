@@ -1,0 +1,9 @@
+{
+    "id": "botble/farmart",
+    "name": "Farmart",
+    "namespace": "Theme\\Farmart\\",
+    "description": "Farmart – Your Online Foods & Grocery",
+    "author": "Botble Technologies",
+    "version": "1.1.0",
+    "required_plugins": []
+}

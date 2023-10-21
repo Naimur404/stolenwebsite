@@ -1,0 +1,1 @@
+(()=>{"use strict";var t;(t=jQuery)(document).on("change",".product-quantity .select-return-item-qty",(function(e){var n=t(e.currentTarget).find(":selected");n.length&&n.closest("tr").find(".return-amount").html(n.data("amount"))}))})();

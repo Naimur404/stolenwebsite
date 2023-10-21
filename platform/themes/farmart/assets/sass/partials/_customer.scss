@@ -1,0 +1,17 @@
+.customer-auth-form {
+    .nav-tabs {
+        justify-content: center;
+        padding: 10px;
+
+        .nav-link {
+            background-color: unset;
+            border: 0;
+            color: #000;
+
+            &.active {
+                color: #495057;
+                border-radius: 0;
+            }
+        }
+    }
+}

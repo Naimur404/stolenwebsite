@@ -1,0 +1,39 @@
+$primary-font: var(--primary-font);
+$body-font-size: 14px;
+$color-heading: var(--heading-color);
+$color-text: var(--text-color);
+$color-primary: var(--primary-color);
+;
+$header-text-color: var(--header-text-color);
+$footer-text-color: var(--footer-text-color);
+$footer-heading-color: var(--footer-heading-color);
+$footer-hover-color: var(--footer-hover-color);
+$footer-border-color: var(--footer-border-color);
+$color-blue: #09f;
+$color-red: #cb4321;
+$color-green: #2f8a33;
+$color-gray: #999;
+$primary-button-color: var(--primary-button-color);
+$top-header-background-color: var(--top-header-background-color);
+$middle-header-background-color: var(--middle-header-background-color);
+$bottom-header-background-color: var(--bottom-header-background-color);
+
+$timing: cubic-bezier(0.77, 0, 0.175, 1);
+$timing-1: cubic-bezier(0.7, 0, 0.3, 1);
+$timing-2: cubic-bezier(0.2, 1, 0.3, 1);
+
+$border-color: #ececec;
+
+$facebook-color: #1b4e9b;
+$twitter-color: #00aeef;
+$linkedin-color: #007bb5;
+$pinterest-color: #c92228;
+$youtube-color: #b00;
+$instagram-color: #125688;
+$flickr-color: #ff0084;
+
+:root {
+    --bs-primary: #fab528;
+    --bs-bg-primary: #fab528;
+    --bs-primary-rgb: 250, 181, 40;
+}

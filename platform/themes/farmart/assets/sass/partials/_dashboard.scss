@@ -1,0 +1,23 @@
+.dashboard-navigation {
+    border: 1px solid #eaeaea;
+    text-transform: uppercase;
+    color: #000;
+
+    .nav-item {
+        border-bottom: 1px solid #eaeaea;
+        background-color: #f5f5f5;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        .nav-link {
+            padding: 12px 30px;
+            color: inherit;
+
+            &.active {
+                font-weight: 700;
+            }
+        }
+    }
+}

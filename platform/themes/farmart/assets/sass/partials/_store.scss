@@ -1,0 +1,49 @@
+.store-card-wrapper {
+    .card-header {
+        border: 0;
+        border-radius: 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .store-listing__list {
+        .store-card-wrapper {
+            display: flex;
+            flex-direction: unset;
+
+            .card-header {
+                flex-basis: 21%;
+                width: 21%;
+                margin-bottom: 0;
+
+                .card-img-top {
+                    border-top-left-radius: calc(0.25rem - 1px);
+                    border-top-right-radius: 0;
+                    border-bottom-left-radius: calc(0.25rem - 1px);
+                }
+            }
+
+            .card-body {
+                flex-basis: 50%;
+                width: 50%;
+                margin-bottom: 0;
+
+                .store-data-avatar {
+                    img {
+                        max-width: 60px;
+                    }
+                }
+            }
+
+            .card-footer {
+                flex-basis: 29%;
+                width: 29%;
+                margin-bottom: 0;
+
+                .visit-store-wrapper {
+                    border-top: 0 !important;
+                }
+            }
+        }
+    }
+}

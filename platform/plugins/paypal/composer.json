@@ -1,0 +1,8 @@
+{
+    "name": "botble/paypal",
+    "description": "PayPal Payment Gateway",
+    "type": "package",
+    "require": {
+        "paypal/paypal-checkout-sdk": "^1.0"
+    }
+}

@@ -1,0 +1,13 @@
+/vendor
+composer.phar
+composer.lock
+.DS_Store
+.idea
+.vscode
+coverage
+*.taskpaper
+NOTES.md
+/.phpunit.result.cache
+/.phpunit.cache/
+/phpunit.xml.bak
+/coverage.clover

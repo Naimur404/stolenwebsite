@@ -1,0 +1,110 @@
+* {
+    font-family: $primary-font;
+}
+
+body {
+    font-size: $body-font-size;
+    font-weight: 400;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+
+    a {
+        color: inherit;
+    }
+}
+
+p {
+    font-size: $body-font-size;
+    line-height: 1.6em;
+    color: $color-text;
+
+    span {
+        font-family: inherit;
+        color: inherit;
+        font-size: inherit;
+    }
+}
+
+a {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    @include transition(all 0.4s ease);
+
+    &:hover {
+        color: $color-primary;
+    }
+}
+
+a,
+input,
+textarea,
+button,
+select {
+    outline: none;
+}
+
+a:hover,
+h1:focus,
+h2:focus,
+h3:focus,
+h4:focus,
+h5:focus,
+h6:focus {
+    text-decoration: none;
+}
+
+a:focus,
+button:focus,
+select:focus,
+input:focus,
+textarea:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    border: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.document-wrapper {
+    ul, ol {
+        margin-bottom: 10px;
+
+        ul, ol {
+            margin-bottom: 0;
+        }
+    }
+
+    ul li, ol li {
+        color: $color-text;
+        font-size: $body-font-size;
+        line-height: 1.6em;
+    }
+
+    p {
+        margin-bottom: 15px;
+
+        strong {
+            color: $color-heading;
+        }
+    }
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    transition: .5s;
+}

@@ -1,0 +1,8 @@
+{
+    "name": "botble/shippo",
+    "description": "Shippo plugin",
+    "type": "package",
+    "require": {
+        "shippo/shippo-php": "^2.0"
+    }
+}
